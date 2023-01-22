@@ -1,0 +1,8 @@
+config:
+  default: all
+
+var:
+  msg: GMake2
+  
+all: |
+  @echo Hello! {{.msg}}!
